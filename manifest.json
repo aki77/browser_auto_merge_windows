@@ -1,0 +1,15 @@
+{
+  "name": "Auto Merge Windows",
+  "version": "0.1.0",
+  "description": "Auto merges all of the browser's windows into the main window",
+  "icons": {
+    "48": "merge_windows_48.png",
+    "128": "merge_windows_128.png"
+  },
+  "background": {
+    "persistent": false,
+    "scripts": ["browser-polyfill.min.js", "background.js"]
+  },
+  "permissions": ["tabs"],
+  "manifest_version": 2
+}
